@@ -3,7 +3,7 @@ console.log("\n***** Lenght and index *****\n") ;
 console.log(arr1.length);
 console.log(arr1[3]); //Dosen't exist
 console.log(arr1[2]); //Last idnex of array
-console.log(arrr1[arr1.lenght -1 ]) ; //Equals 2
+console.log(arr1[arr1.lenght -1 ]) ; //Equals 2
 
 console.log("\n***** Lenght and index Part 2 *****\n");
 let arr3 = Array(3); //empty array of lenght 3
