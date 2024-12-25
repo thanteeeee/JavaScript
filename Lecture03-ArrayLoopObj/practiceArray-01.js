@@ -6,8 +6,14 @@ let newvalues = [] ;
 
 values1.forEach((value,index) => {
 
-    if(values1.value === values2.value){
-        
+    if (values2.includes(value)) {
+        newvalues.push({ value: value, index: index });
+    }
+    if (values3.includes(value)) {
+        newvalues.push({ value: value, index: index });
     }
     
 });
+
+console.log(newvalues);
+
