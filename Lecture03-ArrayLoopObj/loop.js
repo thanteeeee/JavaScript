@@ -10,7 +10,7 @@ while(index < names.length){
 }
 
 //for loop 
-console.lof('-- for --');
+console.log('-- for --');
 for(let index = 0; index < names.length; index++){
     const name = names[index] ;
     console.log(name);
