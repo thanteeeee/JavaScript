@@ -8,3 +8,7 @@ function reducer(accmulator,currentValue,index){
 }
 
 array.reduce(reducer);
+
+// index (รอบ)
+// accmulator (ค่าสะสม)
+// currentValue (เริ่มที่ Array ตำแหน่งที่ 1 ;array[1])
