@@ -8,7 +8,7 @@ function sayHello() {
     console.log("Hello World!")
 }
 
-function cube(x){
+function cude(x){
     return x*x*x ;
 }
 

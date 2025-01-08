@@ -1,8 +1,8 @@
 // Parent class
 class Media {
     constructor(info){
-        this.publishDate = info.publishDate ;
-        this.name = info.nae ;
+        this.publishDate = info.publishDate ; //info = key value pair
+        this.name = info.name ;
     }
 }
 
