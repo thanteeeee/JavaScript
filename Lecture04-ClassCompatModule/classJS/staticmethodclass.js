@@ -17,5 +17,7 @@ const mydog = new Dog("Buster") ;
 mydog.introduce();
 
 //calling the static method
-Dog.break();
+Dog.bark();
+
+//Dog.introduce(); can't use introduce is not function
 
