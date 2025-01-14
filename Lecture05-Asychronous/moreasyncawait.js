@@ -1,7 +1,7 @@
 function who() {
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve("");
+            resolve("🤡");
         }, 200);
     });
 }
@@ -30,5 +30,5 @@ async function msg() {
     console.log(`${a} ${b} ${c}`);
 }
 console.log('We are looking for : ');
-msg(); //  lurks in the shadows <-- after 1 second
+msg(); // 🤡lurks in the shadows <-- after 1 second
 console.log('Hello');
