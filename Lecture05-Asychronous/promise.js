@@ -1,6 +1,6 @@
 function promiseTimeout(ms){
     return new Promise((resolve, reject) => {
-        setTimeout(resolve, ms);
+        setTimeout(resolve, ms); // return true
     });
 }
 
